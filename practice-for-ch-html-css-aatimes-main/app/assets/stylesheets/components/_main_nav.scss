@@ -3,8 +3,9 @@
 
 
 .main-nav {
-  
-  
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 
@@ -17,8 +18,12 @@
 .left-nav {
 
   > ul {
+    display: flex;
+    align-items: center;
     > li {
-      
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
     }
   }
 
@@ -34,6 +39,7 @@
     }
 
     > li:last-of-type {
+      font-size: 20px;
       
     }
   }
@@ -45,6 +51,10 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
+
+  color: lightgray;
+  margin-right: 10px;
+
   
 }
 
